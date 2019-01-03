@@ -1,16 +1,32 @@
 import React from 'react';
-
+import SkillsBox from './SkillsBox';
+import IosBrowsersOutline from 'react-ionicons/lib/IosBrowsersOutline';
+import IosAnalyticsOutline from 'react-ionicons/lib/IosAnalyticsOutline';
+import LogoAndroid from 'react-ionicons/lib/LogoAndroid';
 const WhatIDo = () => {
     return (
-        <div id="whatido-section">
-            <div className="section-margin-spacing">
+        <div className="section-padding-top gray" id="whatido-section">
+            <div className="section-margin-sides">
                 <h2>What I Do</h2>
-                Web Development
-                <p>Skills: HTML, CSS, Javascript, React</p>
-                <div>Back End Development</div>
-                <p>Skills: C#, SQL, GraphQL</p>
-                <div>Mobile Development</div>
-                <p>Skills: iOS, Swift, React Native</p>
+                <div className="row">
+
+                
+                <SkillsBox title="Web Development"
+                    skills={["HTML", "CSS", "JavaScript", "React"]}>
+                    <IosBrowsersOutline />
+                </SkillsBox>
+
+                <SkillsBox title="Back End Development"
+                    skills={["C#", "SQL", "GraphQL"]}>
+                    <IosAnalyticsOutline />
+                </SkillsBox>
+
+                <SkillsBox title="Mobile Development"
+                    skills={["iOS", "Swift", "React Native"]}>
+                    <LogoAndroid />
+                </SkillsBox>
+                </div>
+
             </div>
         </div>
     );
