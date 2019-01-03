@@ -2,10 +2,13 @@ import React from 'react';
 
 const ContactMe = () => {
     return (
-        <div>
-            Contact Me 
+        <div id="contact-me-section">
+        <div className="section-margin-spacing">
+            <h2>Contact Me </h2>
             GitHub
             LinkedIn
+
+        </div>
         </div>
     );
 };
