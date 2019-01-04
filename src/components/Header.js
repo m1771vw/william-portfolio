@@ -4,8 +4,15 @@ class Header extends Component {
     state = {
         active: false
     }
+
+    onHamburgerClicked = () => {
+        this.setState({
+            active: !this.state.active
+        })
+    }
     render() {
         let { active } = this.state;
+        let { onHamburgerClicked } = this;
         return (
             <header className="hero-head header">
                 <nav className="navbar">
@@ -14,7 +21,7 @@ class Header extends Component {
                             <div className="navbar-item">
                                 <div className="logo">WY.</div>
                             </div>
-                            <a href="#" className={"menu-btn " + (active ? "active" : "")}><span></span></a>
+                            <a href="#" onClick={onHamburgerClicked} className={"menu-btn " + (active ? "active" : "")}><span></span></a>
                         </div>
                         <div id="navbarMenuHeroA" className="navbar-menu">
                             <div className="navbar-end">

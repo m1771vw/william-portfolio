@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Typing, { Backspace, Reset } from 'react-typing-animation';
 
 
@@ -18,25 +18,15 @@ const AnimatedTypingComponent = () => (
     </Typing>
   );
 
-class HeroSection extends Component {
-    state = {
-        active: false
-    }
-    render() {
-        let { active } = this.state;
-        return (
-
-                
-            <div className="hero-body full-height">
-                <div className="container has-text-centered">
-                <div className="title">
-                    <div className="animated-typing-container"><span className="title-padding">I</span> {AnimatedTypingComponent()}</div>
-                </div>
-                </div>
-            </div> 
-
-
-        );
-    };
+const HeroSection = () => {
+    return (
+        <div className="hero-body full-height">
+            <div className="container has-text-centered">
+            <div className="title">
+                <div className="animated-typing-container"><span className="title-padding">I</span> {AnimatedTypingComponent()}</div>
+            </div>
+            </div>
+        </div> 
+    );
 }
 export default HeroSection;

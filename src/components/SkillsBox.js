@@ -1,5 +1,5 @@
 import React from 'react';
-import {String, Array} from 'prop-types';
+import {string, array} from 'prop-types';
 // import IosBrowsersOutline from 'react-ionicons/lib/IosBrowsersOutline'
 
 const SkillsBox = (props) => {
@@ -10,7 +10,7 @@ const SkillsBox = (props) => {
                 {/* <IosBrowsersOutline/> */}
                 {props.children}
             </div>
-            <div class="name">
+            <div className="name">
                 {title}
             </div>
             <p>{ skills.join(", ") }</p>
@@ -19,8 +19,8 @@ const SkillsBox = (props) => {
 };
 
 SkillsBox.propTypes = {
-    title: String,
-    skills: Array
+    title: string,
+    skills: array
 };
 
 export default SkillsBox;
