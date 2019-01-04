@@ -1,4 +1,23 @@
 /* Containers */
+
+/* Header */
+.header-margin-sides {
+  padding: 0 5%;
+  max-width: 100%;
+}
+
+.logo {
+  float: left;
+	font-family: 'Montserrat', helvetica;
+	font-size: 34px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.span-burger {
+  color: #ffffff;
+
+}
 /* Sections */
 .section-padding-top {
   padding: 180px 0;

@@ -15,10 +15,6 @@ const AnimatedTypingComponent = () => (
                 {"IMPROVE."}
                 <Backspace count={8} delay={750} />
                 <Reset delay={750}/>
-
-                {/* {"DEBUG."} */}
-                {/* {"IMPROVE."} */}
-              {/* <Delay ms={1000} /> */}
     </Typing>
   );
 
@@ -26,17 +22,17 @@ const HeroSection = () => {
     return (
         <div>
         <section className="hero is-link is-fullheight-with-navbar">
-            <div className="hero-head">
+            <header className="hero-head header">
                 <nav className="navbar">
-                <div className="container">
+                <div className="container header-margin-sides">
                     <div className="navbar-brand">
                     <div className="navbar-item">
                         <div className="logo">WY.</div>
                     </div>
-                    <span className="navbar-burger burger" data-target="navbarMenuHeroA">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <span className="navbar-burger burger " data-target="navbarMenuHeroA">
+                        <span className="span-burger"></span>
+                        <span className="span-burger"></span>
+                        <span className="span-burger"></span>
                     </span>
                     </div>
                     <div id="navbarMenuHeroA" className="navbar-menu">
@@ -60,7 +56,7 @@ const HeroSection = () => {
                     </div>
                 </div>
                 </nav>
-            </div>
+            </header>
         <div className="hero-body full-height">
             <div className="container has-text-centered">
             <div className="title">
@@ -68,8 +64,6 @@ const HeroSection = () => {
             </div>
             </div>
         </div> 
-        
-
         </section> 
         </div>
     );
