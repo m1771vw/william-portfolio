@@ -19,7 +19,6 @@ class App extends Component {
         <WhatIDo/>
         <Projects/>
         <Blogs/>
-        <ContactMe/>
         <Footer/>
       </div>
     );

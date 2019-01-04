@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import work from '../img/work1.jpg';
+
 
 const BlogBox = props => {
+    let { img, title, description } = props;
     return (
-        <div className="column blog-box">
-            <img src={work} alt="Placeholder"/>
-
-            <div>
-                My Journey With React Native
+        <div className="column is-one-third box-image">
+            <img src={img} alt="Placeholder"/>
+            <div className="name">
+                {title}
             </div>
-            <div>
-                This is my blog post!
-            </div>
+            <p>
+                {description}
+            </p>
         </div>
     );
 };

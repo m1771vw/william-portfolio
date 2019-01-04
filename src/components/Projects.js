@@ -4,6 +4,7 @@ import StudyBuddyImg from '../img/projects/StudyBuddiesResize.png';
 import StudyBuddyMobileImg from '../img/projects/StudyBuddiesResizeMobile.png';
 import BouncingBlockImg from '../img/projects/BouncingBlockResized.png';
 import JobTrackerImg from '../img/projects/JobTrackerResized.png';
+import PugImg from '../img/projects/PUGResized.png'
 const Projects = () => {
     return (
         <div className="section-padding-top " id="project-section">
@@ -16,6 +17,10 @@ const Projects = () => {
             <div className="columns is-desktop row">
                 <ProjectBox img={BouncingBlockImg} tag="Mobile" title="Bouncing Blocks"/>
                 <ProjectBox img={JobTrackerImg} tag="Web" title="Job Tracker"/>
+            </div>
+            <div className="columns is-desktop row">
+                <ProjectBox img={PugImg} tag="Mobile" title="P.U.G. (Pick Up Games)"/>
+                {/* <ProjectBox img={JobTrackerImg} tag="Web" title="Job Tracker"/> */}
             </div>
             
         </div>
