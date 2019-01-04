@@ -6,8 +6,8 @@ const ProjectBox = props => {
     return (
         <div class="column is-half-desktop is-half-tablet project-box">
             <img src={img} alt="Placeholder"/>
-            <p>{tag}</p>
-            <p>{title}</p>
+            <div className="tag-name">{tag}</div>
+            <div className="name">{title}</div>
         </div>
     );
 };

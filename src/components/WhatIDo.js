@@ -8,22 +8,24 @@ const WhatIDo = () => {
         <div className="section-padding-top gray" id="whatido-section">
             <div className="section-margin-sides">
                 <h2>What I Can Do</h2>
-                <div className="columns is-desktop">
+                <div className="columns is-desktop row">
 
                 
                 <SkillsBox title="Web Development"
                     skills={["HTML", "CSS", "JavaScript", "React"]}>
-                    <IosBrowsersOutline />
+                    <IosBrowsersOutline fontSize="44px"/>
                 </SkillsBox>
 
                 <SkillsBox title="Back End Development"
                     skills={["C#", "SQL", "GraphQL"]}>
-                    <IosAnalyticsOutline />
+                    <IosAnalyticsOutline fontSize="44px"/>
                 </SkillsBox>
+                </div>
+                <div className="columns is-desktop row">
 
                 <SkillsBox title="Mobile Development"
                     skills={["iOS", "Swift", "React Native"]}>
-                    <LogoAndroid />
+                    <LogoAndroid fontSize="44px"/>
                 </SkillsBox>
                 </div>
 

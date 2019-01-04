@@ -13,7 +13,7 @@ const SkillsBox = (props) => {
             <div class="name">
                 {title}
             </div>
-            { skills.join(", ") }
+            <p>{ skills.join(", ") }</p>
         </div>
     );
 };
