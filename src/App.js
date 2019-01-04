@@ -13,8 +13,10 @@ class App extends Component {
   render() {
     return (
       <div>
+      <section className="hero is-link is-fullheight-with-navbar">
         <Header /> 
         <HeroSection />
+      </section>
         <AboutMe/>
         <WhatIDo/>
         <Projects/>
