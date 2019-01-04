@@ -1,4 +1,26 @@
 import React from 'react';
+import Typing, { Backspace, Reset } from 'react-typing-animation';
+
+
+const AnimatedTypingComponent = () => (
+    <Typing loop speed={50}>
+                {"DESIGN."}
+                <Backspace count={7} delay={750} />
+                {"DEVELOP."}
+                <Backspace count={8} delay={750} />
+                {"TEST."}
+                <Backspace count={5} delay={750} />
+                {"DEBUG."}
+                <Backspace count={6} delay={750} />
+                {"IMPROVE."}
+                <Backspace count={8} delay={750} />
+                <Reset delay={750}/>
+
+                {/* {"DEBUG."} */}
+                {/* {"IMPROVE."} */}
+              {/* <Delay ms={1000} /> */}
+    </Typing>
+  );
 
 const HeroSection = () => {
     return (
@@ -39,16 +61,15 @@ const HeroSection = () => {
                 </div>
                 </nav>
             </div>
-        <div className="hero-body">
+        <div className="hero-body full-height">
             <div className="container has-text-centered">
-            <h1 className="title">
-                Title
-            </h1>
-            <h2 className="subtitle">
-                Subtitle
-            </h2>
+            <div className="title">
+                <div className="animated-typing-container"><span className="title-padding">I</span> {AnimatedTypingComponent()}</div>
             </div>
-        </div>   
+            </div>
+        </div> 
+        
+
         </section> 
         </div>
     );
