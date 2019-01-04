@@ -186,9 +186,11 @@ strong {
 }
 
 /* Formatting */
-.row {
-  display: flex;
-  flex-direction: row;
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /* Footer */

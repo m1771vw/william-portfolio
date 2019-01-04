@@ -8,7 +8,7 @@ const WhatIDo = () => {
         <div className="section-padding-top gray" id="whatido-section">
             <div className="section-margin-sides">
                 <h2>What I Can Do</h2>
-                <div className="row">
+                <div className="columns is-desktop">
 
                 
                 <SkillsBox title="Web Development"

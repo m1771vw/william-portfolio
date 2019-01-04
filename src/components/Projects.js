@@ -5,11 +5,11 @@ const Projects = () => {
         <div className="section-padding-top " id="project-section">
         <div className="section-margin-sides">
             <h2>Projects</h2>
-            <div className="row">
+            <div className="columns is-desktop row">
                 <ProjectBox/>
                 <ProjectBox/>
             </div>
-            <div className="row">
+            <div className="columns is-desktop row">
                 <ProjectBox/>
                 <ProjectBox/>
             </div>
