@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            2018 WILLIAM YANG. ALL RIGHTS RESERVED.
-        </div>
+        <footer className ="section-footer footer-text">
+            ©2018 WILLIAM YANG. ALL RIGHTS RESERVED.
+        </footer>
     );
 };
 

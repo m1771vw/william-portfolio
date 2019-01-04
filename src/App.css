@@ -1,6 +1,5 @@
 /* Containers */
 /* Sections */
-
 .section-padding-top {
   padding: 180px 0;
 }
@@ -34,6 +33,18 @@
   }
 }
 
+.section-footer {
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+	color: #898989;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+/* Skills */
 .skill-box {
 
 }
@@ -44,6 +55,13 @@
 	line-height: 24px;
 }
 
+/* Projects */
+.project-box {
+  position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+}
 
 /* Typography */
 h1,
@@ -171,4 +189,16 @@ strong {
 .row {
   display: flex;
   flex-direction: row;
+}
+
+/* Footer */
+footer {
+	padding: 120px 0;
+}
+
+@media (max-width: 720px) {
+	footer {
+		padding: 90px 0;
+	}
+
 }
