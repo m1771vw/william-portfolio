@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Typing, { Backspace, Reset } from 'react-typing-animation';
 
 
@@ -18,55 +18,56 @@ const AnimatedTypingComponent = () => (
     </Typing>
   );
 
-const HeroSection = () => {
-    return (
-        <div>
-        <section className="hero is-link is-fullheight-with-navbar">
-            <header className="hero-head header">
-                <nav className="navbar">
-                <div className="container header-margin-sides">
-                    <div className="navbar-brand">
-                    <div className="navbar-item">
-                        <div className="logo">WY.</div>
-                    </div>
-                    <span className="navbar-burger burger " data-target="navbarMenuHeroA">
-                        <span className="span-burger"></span>
-                        <span className="span-burger"></span>
-                        <span className="span-burger"></span>
-                    </span>
-                    </div>
-                    <div id="navbarMenuHeroA" className="navbar-menu">
-                    <div className="navbar-end">
-                        <div className="navbar-item is-active">
-                            About 
-                        </div>
+class HeroSection extends Component {
+    state = {
+        active: false
+    }
+    render() {
+        let { active } = this.state;
+        return (
+            <div>
+            <section className="hero is-link is-fullheight-with-navbar">
+                <header className="hero-head header">
+                    <nav className="navbar">
+                    <div className="container header-margin-sides">
+                        <div className="navbar-brand">
                         <div className="navbar-item">
-                            What I Do
+                            <div className="logo">WY.</div>
                         </div>
-                        <div className="navbar-item">
-                            Projects
+                        <a href="#" className={"menu-btn " + (active ? "active" : "")}><span></span></a>
                         </div>
-                        <div className="navbar-item">
-                            Blog
+                        <div id="navbarMenuHeroA" className="navbar-menu">
+                        <div className="navbar-end">
+                            <div className="navbar-item is-active">
+                                About 
+                            </div>
+                            <div className="navbar-item">
+                                What I Do
+                            </div>
+                            <div className="navbar-item">
+                                Projects
+                            </div>
+                            <div className="navbar-item">
+                                Blog
+                            </div>
+                            <div className="navbar-item">
+                                Contact
+                            </div>
                         </div>
-                        <div className="navbar-item">
-                            Contact
                         </div>
                     </div>
-                    </div>
+                    </nav>
+                </header>
+            <div className="hero-body full-height">
+                <div className="container has-text-centered">
+                <div className="title">
+                    <div className="animated-typing-container"><span className="title-padding">I</span> {AnimatedTypingComponent()}</div>
                 </div>
-                </nav>
-            </header>
-        <div className="hero-body full-height">
-            <div className="container has-text-centered">
-            <div className="title">
-                <div className="animated-typing-container"><span className="title-padding">I</span> {AnimatedTypingComponent()}</div>
+                </div>
+            </div> 
+            </section> 
             </div>
-            </div>
-        </div> 
-        </section> 
-        </div>
-    );
-};
-
+        );
+    };
+}
 export default HeroSection;

@@ -1,8 +1,8 @@
 import React from 'react';
 import SkillsBox from './SkillsBox';
-import IosBrowsersOutline from 'react-ionicons/lib/IosBrowsersOutline';
-import IosAnalyticsOutline from 'react-ionicons/lib/IosAnalyticsOutline';
-import LogoAndroid from 'react-ionicons/lib/LogoAndroid';
+import IosLaptop from 'react-ionicons/lib/IosLaptop';
+import IosGlobeOutline from 'react-ionicons/lib/IosGlobeOutline';
+import IosPhonePortrait from 'react-ionicons/lib/IosPhonePortrait';
 const WhatIDo = () => {
     return (
         <div className="section-padding-top gray" id="whatido-section">
@@ -13,19 +13,19 @@ const WhatIDo = () => {
                 
                 <SkillsBox title="Web Development"
                     skills={["HTML", "CSS", "JavaScript", "React"]}>
-                    <IosBrowsersOutline fontSize="44px"/>
+                    <IosLaptop fontSize="44px"/>
                 </SkillsBox>
 
                 <SkillsBox title="Back End Development"
                     skills={["C#", "SQL", "GraphQL"]}>
-                    <IosAnalyticsOutline fontSize="44px"/>
+                    <IosGlobeOutline fontSize="44px"/>
                 </SkillsBox>
                 </div>
                 <div className="columns is-desktop row">
 
                 <SkillsBox title="Mobile Development"
                     skills={["iOS", "Swift", "React Native"]}>
-                    <LogoAndroid fontSize="44px"/>
+                    <IosPhonePortrait fontSize="44px"/>
                 </SkillsBox>
                 </div>
 
