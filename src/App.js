@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import Example from './components/Header';
 import HeroSection from './components/HeroSection';
 import AboutMe from './components/AboutMe';
 import WhatIDo from './components/WhatIDo';
@@ -16,12 +17,15 @@ class App extends Component {
       <section className="hero is-link is-fullheight-with-navbar">
         <Header /> 
         <HeroSection />
+        
       </section>
         <AboutMe/>
+        
         <WhatIDo/>
         <Projects/>
         <Blogs/>
         <Footer/>
+
       </div>
     );
   }

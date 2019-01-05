@@ -1,52 +1,93 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-class Header extends Component {
-    state = {
-        active: false
-    }
 
-    onHamburgerClicked = () => {
-        this.setState({
-            active: !this.state.active
-        })
-    }
-    render() {
-        let { active } = this.state;
-        let { onHamburgerClicked } = this;
-        return (
-            <header className="hero-head header">
-                <nav className="navbar">
-                    <div className="container header-margin-sides">
-                        <div className="navbar-brand">
-                            <div className="navbar-item">
-                                <div className="logo">WY.</div>
-                            </div>
-                            <a href="#" onClick={onHamburgerClicked} className={"menu-btn " + (active ? "active" : "")}><span></span></a>
+const Header = () => {
+    const [active, toggleActive] = useState(false);
+    return (
+        <header className="hero-head header">
+            <nav className="navbar">
+                <div className="container header-margin-sides">
+                    <div className="navbar-brand">
+                        <div className="navbar-item">
+                            <div className="logo">WY.</div>
                         </div>
-                        <div id="navbarMenuHeroA" className="navbar-menu">
-                            <div className="navbar-end">
-                                <div className="navbar-item is-active">
-                                    About
+                        <a href="#" onClick={() => toggleActive(!active)} className={"menu-btn " + (active ? "active" : "")}><span></span></a>
+                    </div>
+                    {/* <div id="navbarMenuHeroA" className={"navbar-menu " + (active ? "active" : "")}> */}
+                    <div id="navbarMenuHeroA" className="navbar-menu test active">
+                        <div className="navbar-end">
+                            <div className="navbar-item is-active">
+                                About
                                 </div>
-                                <div className="navbar-item">
-                                    What I Do
+                            <div className="navbar-item">
+                                What I Do
                                 </div>
-                                <div className="navbar-item">
-                                    Projects
+                            <div className="navbar-item">
+                                Projects
                                 </div>
-                                <div className="navbar-item">
-                                    Blog
+                            <div className="navbar-item">
+                                Blog
                                 </div>
-                                <div className="navbar-item">
-                                    Contact
+                            <div className="navbar-item">
+                                Contact
                                 </div>
-                            </div>
                         </div>
                     </div>
-                </nav>
-            </header>
-        );
-    }
-};
+                </div>
+            </nav>
+        </header>
+    );
+}
+
+// import React, { Component } from 'react';
+
+// class Header extends Component {
+//     state = {
+//         active: false
+//     }
+
+//     onHamburgerClicked = () => {
+//         this.setState({
+//             active: !this.state.active
+//         })
+//     }
+//     render() {
+//         let { active } = this.state;
+//         let { onHamburgerClicked } = this;
+//         return (
+//             <header className="hero-head header">
+//                 <nav className="navbar">
+//                     <div className="container header-margin-sides">
+//                         <div className="navbar-brand">
+//                             <div className="navbar-item">
+//                                 <div className="logo">WY.</div>
+//                             </div>
+//                             <a href="#" onClick={onHamburgerClicked} className={"menu-btn " + (active ? "active" : "")}><span></span></a>
+//                         </div>
+//                         <div id="navbarMenuHeroA" className="navbar-menu">
+//                             <div className="navbar-end">
+//                                 <div className="navbar-item is-active">
+//                                     About
+//                                 </div>
+//                                 <div className="navbar-item">
+//                                     What I Do
+//                                 </div>
+//                                 <div className="navbar-item">
+//                                     Projects
+//                                 </div>
+//                                 <div className="navbar-item">
+//                                     Blog
+//                                 </div>
+//                                 <div className="navbar-item">
+//                                     Contact
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </nav>
+//             </header>
+//         );
+//     }
+// };
 
 export default Header;

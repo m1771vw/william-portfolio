@@ -95,6 +95,11 @@
 	-o-transform: rotate(-45deg);
 }
 
+.test.active {
+  width: 400px;
+  height:500px;
+  background: #ffffff;
+}
 /* Sections */
 .section-padding-top {
   padding: 180px 0;
