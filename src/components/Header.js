@@ -14,7 +14,8 @@ const Header = () => {
                         <a href="#" onClick={() => toggleActive(!active)} className={"menu-btn " + (active ? "active" : "")}><span></span></a>
                     </div>
                     {/* <div id="navbarMenuHeroA" className={"navbar-menu " + (active ? "active" : "")}> */}
-                    <div id="navbarMenuHeroA" className="navbar-menu test active">
+                    <div id="navbarMenuHeroA" className={"new-navbar " + (active ? "active" : "")}>
+                    {/* <div id="navbarMenuHeroA" className="new-nav-bar"> */}
                         <div className="navbar-end">
                             <div className="navbar-item is-active">
                                 About
