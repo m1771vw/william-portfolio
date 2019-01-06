@@ -4,6 +4,7 @@
 .header-margin-sides {
   padding: 0 5%;
   max-width: 100%;
+  position: fixed;
 }
 
 .logo {
@@ -95,39 +96,48 @@
 	-o-transform: rotate(-45deg);
 }
 
-@media (max-width: 1079px) {
-  .new-navbar {
-    display: none;
-  }
-}
-
-.new-navbar{
-
-    display: flex;
-    right: -230px;
-    position: fixed;
+.new-navbar {
+    /* display: flex; */
+    /* right: -230px; */
+    /* position: fixed; */
     width: 230px;
     background-color: #3273dc;
     color: black;
-    height: 100%;
-    padding: 50px 30px;
+    /* height: 100%; */
     top: 0;
     z-index: -10;
     transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
+}
+@media (min-width: 1080px) {
+  .new-navbar {
+    /* position: fixed; */
+    width: 100%;
+    padding: 25px 0;
+    /* vertical-align: middle; */
+    /* align-items: center; */
+    /* top: 50; */
+    float: right;
+  }
+}
+@media (max-width: 1079px) {
+  .new-navbar {
+    right:-230px;
+    height: 100%;
+    /* display: none; */
+    padding: 50px 30px;
+    position: fixed;
+  }
+  .new-navbar.active {
+    float: right;
+    right: 0;
+    /* display: inherit; */
+  }
+}
 
-}
-.new-navbar.active {
-  float: right;
-  right: 0;
-}
-.test.active {
-  width: 400px;
-  height:500px;
-  background: #ffffff;
-}
+
 /* Sections */
 .section-padding-top {
   padding: 180px 0;
