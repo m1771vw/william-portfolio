@@ -32,7 +32,7 @@
 	-o-transition: all 0.4s ease 0s;
 }
 
-@media (max-width: 1079px) {
+@media (max-width: 1087px) {
 	.menu-btn {
     display: block;
 	}
@@ -111,18 +111,14 @@
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
 }
-@media (min-width: 1080px) {
+@media (min-width: 1088px) {
   .new-navbar {
-    /* position: fixed; */
     width: 100%;
     padding: 25px 0;
-    /* vertical-align: middle; */
-    /* align-items: center; */
-    /* top: 50; */
     float: right;
   }
 }
-@media (max-width: 1079px) {
+@media (max-width: 1087px) {
   .new-navbar {
     right:-230px;
     height: 100%;
