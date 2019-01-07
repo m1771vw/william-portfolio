@@ -4,7 +4,7 @@ import ProjectModal from './ProjectModal';
 
 
 const ProjectBox = props => {
-    let { img, tag, title } = props;
+    let { img, tag, title, desc, link, imgs } = props;
     const [active, toggleActive] = useState(false);
     const projectBoxClicked = e => {
         toggleActive(!active);
@@ -14,7 +14,13 @@ const ProjectBox = props => {
             <img onClick={projectBoxClicked} src={img} alt="Placeholder"/>
             <div className="tag-name">{tag}</div>
             <div onClick={projectBoxClicked} className="name">{title}</div>
-            <ProjectModal projectBoxClicked={projectBoxClicked} active={active} />
+            <ProjectModal projectBoxClicked={projectBoxClicked} 
+                          active={active}
+                          tag={tag}
+                          title={title}
+                          desc={desc}
+                          link={link}
+                          imgs={imgs} />
         </div>
     );
 };

@@ -203,10 +203,6 @@
   padding: 0 10px;
 }
 /* Skills */
-.skill-box {
-
-}
-
 .skill-box p {
   margin: 0;
 	font-size: 14px;
@@ -221,6 +217,12 @@
 	height: auto;
 }
 
+/* Project Modal */
+.upper-right {
+  position: absolute;
+  right:0;
+}
+/* Blogs */
 #blog-section .box-image img {
   padding-bottom: 25px;
 }

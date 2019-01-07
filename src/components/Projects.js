@@ -11,7 +11,7 @@ const WEB = "Web";
 const MOBILE = "Mobile";
 const StudyBuddyDesc = "Test Desc";
 const StudyBuddyLink = "test link";
-const StudyBuddyImgs = [];
+const StudyBuddyImgs = [StudyBuddyImg];
 
 const Projects = () => {
     return (
@@ -25,7 +25,7 @@ const Projects = () => {
                                 title="Study Buddies" 
                                 desc={StudyBuddyDesc}
                                 link={StudyBuddyLink}
-                                imgs={StudyBuddyImg}
+                                imgs={StudyBuddyImgs}
                                 />
                     <ProjectBox img={StudyBuddyMobileImg} 
                                 tag={MOBILE} 
