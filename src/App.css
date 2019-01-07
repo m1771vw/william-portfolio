@@ -14,6 +14,22 @@
   font-weight: 700;
   color: #ffffff;
 }
+
+.navbar-item:hover {
+  box-shadow: inset 0 -2px 0 #ffffff;
+	/* -moz-box-shadow: inset 0 -6px 0 #ede574;
+	-webkit-box-shadow: inset 0 -6px 0 #ede574;
+	-khtml-box-shadow: inset 0 -6px 0 #ede574; */
+}
+
+/* .header .top-menu ul li:hover a,
+.header .top-menu ul li.active a {
+	box-shadow: inset 0 -6px 0 #ede574;
+	-moz-box-shadow: inset 0 -6px 0 #ede574;
+	-webkit-box-shadow: inset 0 -6px 0 #ede574;
+	-khtml-box-shadow: inset 0 -6px 0 #ede574;
+} */
+
 /* Hamburger */
 .span-burger {
   color: #ffffff;

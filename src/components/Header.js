@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
-
+const headerItemClicked = e => {
+    console.log(e.target.innerText);
+}
 const Header = () => {
     const [active, toggleActive] = useState(false);
     return (
@@ -17,19 +19,19 @@ const Header = () => {
                     <div id="navbarMenuHeroA" className={"new-navbar " + (active ? "active" : "")}>
                     {/* <div id="navbarMenuHeroA" className="new-nav-bar"> */}
                         <div className="navbar-end">
-                            <div className="navbar-item is-active">
+                            <div onClick={headerItemClicked} className="navbar-item is-active">
                                 About
                                 </div>
-                            <div className="navbar-item">
+                            <div onClick={headerItemClicked} className="navbar-item">
                                 What I Do
                                 </div>
-                            <div className="navbar-item">
+                            <div onClick={headerItemClicked} className="navbar-item">
                                 Projects
                                 </div>
-                            <div className="navbar-item">
+                            <div onClick={headerItemClicked} className="navbar-item">
                                 Blog
                                 </div>
-                            <div className="navbar-item">
+                            <div onClick={headerItemClicked} className="navbar-item">
                                 Contact
                                 </div>
                         </div>
