@@ -18,6 +18,7 @@
 }
 
 .logo {
+  cursor:pointer;
   float: left;
 	font-family: 'Montserrat', helvetica;
 	font-size: 34px;
@@ -29,11 +30,31 @@
 	-o-transition: all 0.1s ease 0s;	
 }
 
-.navbar-item:hover {
+.navbar-item {
+	font-size: 12px;
+	color: #ffffff;
+	letter-spacing: 0.2em;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+}
+
+.navbar-end .navbar-item:hover {
+  cursor:pointer;
   box-shadow: inset 0 -2px 0 #ffffff;
-	/* -moz-box-shadow: inset 0 -6px 0 #ede574;
-	-webkit-box-shadow: inset 0 -6px 0 #ede574;
-	-khtml-box-shadow: inset 0 -6px 0 #ede574; */
+	-moz-box-shadow: inset 0 -2px 0 #ffffff;
+	-webkit-box-shadow: inset 0 -2px 0 #ffffff;
+	-khtml-box-shadow: inset 0 -2px 0 #ffffff;
+}
+.navbar-end .navbar-item.filled-text:hover {
+  cursor:pointer;
+  box-shadow: inset 0 -2px 0 #000000;
+	-moz-box-shadow: inset 0 -2px 0 #000000;
+	-webkit-box-shadow: inset 0 -2px 0 #000000;
+	-khtml-box-shadow: inset 0 -2px 0 #000000;
 }
 
 .filled {
@@ -48,6 +69,7 @@
 .menu-btn.filled span::before,
 .menu-btn.filled span::after {
   background: black;
+  cursor:pointer;
 }
 
 .new-navbar .navbar-item.filled-text {
@@ -229,10 +251,23 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size:7.91666667vw;
+  font-family: 'Montserrat', helvetica;
+  line-height: 7.91666667vw;
+  font-weight: 400;
+	letter-spacing: 0.1em;
+
+}
+
+@media (max-width: 720px) {
+  .animated-typing-container {
+		font-size: -1.08333333vw;
+		font-weight: 700;
+	}
 
 }
 .title-padding {
-  padding: 0 10px;
+  padding: 0 2.5vw;
 }
 /* Skills */
 .skill-box p {
@@ -249,6 +284,11 @@
 	height: auto;
 }
 
+.box-image img,
+.box-image .tag-name,
+.box-image .name {
+  cursor: pointer;
+}
 /* Project Modal */
 .upper-right {
   position: absolute;

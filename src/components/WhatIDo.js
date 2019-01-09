@@ -12,12 +12,12 @@ const WhatIDo = () => {
 
                 
                 <SkillsBox title="Web Development"
-                    skills={["HTML", "CSS", "JavaScript", "React"]}>
+                    skills={["HTML5", "CSS3", "JavaScript, ES6", "React", "Redux"]}>
                     <IosLaptop fontSize="44px"/>
                 </SkillsBox>
 
                 <SkillsBox title="Back End Development"
-                    skills={["C#", "SQL", "GraphQL"]}>
+                    skills={["Node.js", "Express.js", "C#", ".NET Core", "SQL", "GraphQL"]}>
                     <IosGlobeOutline fontSize="44px"/>
                 </SkillsBox>
                 </div>
