@@ -222,6 +222,15 @@
   position: absolute;
   right:0;
 }
+
+.not-live {
+  display: none;
+}
+
+
+
+
+
 /* Blogs */
 #blog-section .box-image img {
   padding-bottom: 25px;

@@ -9,56 +9,94 @@ import PugImg from '../img/projects/PUGResized.png'
 
 const WEB = "Web";
 const MOBILE = "Mobile";
-const StudyBuddyDesc = "Test Desc";
-const StudyBuddyLink = "test link";
+const StudyBuddyDesc = "Study Buddies is a Web Application built in React.js that allows users to create their own flashcards and study them.";
+const StudyBuddyTechStack = "React.js"
+const StudyBuddyGitHubLink = "https://github.com/m1771vw/StudyBuddies";
+const StudyBuddyLiveLink = "https://github.com/m1771vw/StudyBuddies";
 const StudyBuddyImgs = [StudyBuddyImg];
+const StudyBuddyMobileDesc = "Study Buddies Mobile is a mobile application built in React Native that allows users to create their own flashcards and study them on the go!";
+const StudyBuddyMobileTechStack = "React Native, Redux, MongoDB, Node.js"
+const StudyBuddyMobileGitHubLink = "https://github.com/m1771vw/StudyBuddiesMobile";
+const StudyBuddyMobileLiveLink = "https://github.com/m1771vw/StudyBuddiesMobile";
+const StudyBuddyMobileImgs = [StudyBuddyMobileImg];
+const BouncingBlockDesc = "Bouncing Blocks is a React Native game where players build trampolines to bounce blocks across the screen.";
+const BouncingBlockTechStack = "React Native, React Native Game Engine, Physics.js"
+const BouncingBlockGitHubLink = "https://github.com/m1771vw/bouncing-blocks-react-native";
+const BouncingBlockLiveLink = "https://github.com/m1771vw/bouncing-blocks-react-native";
+const BouncingBlockImgs = [BouncingBlockImg];
+const JobTrackerDesc = "Job Tracker is a web application where users can store information on jobs they had applied and whom they contacted for that job to ease application history organization";
+const JobTrackerTechStack = "React.js, Redux, PostgreSQL, C#, .NET Core"
+const JobTrackerGitHubLink = "https://github.com/m1771vw/JobTracker";
+const JobTrackerLiveLink = "https://github.com/m1771vw/JobTracker";
+const JobTrackerImgs = [JobTrackerImg];
+const PugDesc = "P.U.G is a React Native mobile application where gamers can enter group chat rooms to find fellow gamers to play with.";
+const PugTechStack = "React Native, Redux, Node.js, ChatKit API"
+const PugGitHubLink = "https://github.com/pattruong/pug/";
+const PugLiveLink = "https://github.com/pattruong/pug/";
+const PugImgs = [PugImg];
+// const StudyBuddyDesc = "Study Buddies is a Web Application built in React.js that allows users to create their own flashcards and study them.";
+// const StudyBuddyTechStack = "React.js"
+// const StudyBuddyLink = "https://github.com/m1771vw/StudyBuddies";
+// const StudyBuddyImgs = [StudyBuddyImg];
+
+
 
 const Projects = () => {
     return (
         <div className="section-padding-top " id="project-section">
             <div className="section-margin-sides">
                 <h2>Projects</h2>
-                
+
                 <div className="columns is-desktop row">
-                    <ProjectBox img={StudyBuddyImg} 
-                                tag={WEB} 
-                                title="Study Buddies" 
-                                desc={StudyBuddyDesc}
-                                link={StudyBuddyLink}
-                                imgs={StudyBuddyImgs}
-                                />
-                    <ProjectBox img={StudyBuddyMobileImg} 
-                                tag={MOBILE} 
-                                title="Study Buddies Mobile" 
-                                desc=""
-                                link=""
-                                imgs=""
-                                />
+                    <ProjectBox img={StudyBuddyImg}
+                        tag={WEB}
+                        title="Study Buddies"
+                        desc={StudyBuddyDesc}
+                        gitHubLink={StudyBuddyGitHubLink}
+                        tech={StudyBuddyTechStack}
+                        imgs={StudyBuddyImgs}
+                        live={false}
+                    />
+                    <ProjectBox img={StudyBuddyMobileImg}
+                        tag={MOBILE}
+                        title="Study Buddies Mobile"
+                        desc={StudyBuddyMobileDesc}
+                        gitHubLink={StudyBuddyMobileGitHubLink}
+                        tech={StudyBuddyMobileTechStack}
+                        imgs={StudyBuddyMobileImgs}
+                        live={false}
+                    />
                 </div>
                 <div className="columns is-desktop row">
-                    <ProjectBox img={BouncingBlockImg} 
-                                tag={MOBILE} 
-                                title="Bouncing Blocks" 
-                                desc=""
-                                link=""
-                                imgs=""
-                                />
-                    <ProjectBox img={JobTrackerImg} 
-                                tag={WEB} 
-                                title="Job Tracker" 
-                                desc=""
-                                link=""
-                                imgs=""
-                                />
+                    <ProjectBox img={BouncingBlockImg}
+                        tag={MOBILE}
+                        title="Bouncing Blocks"
+                        desc={BouncingBlockDesc}
+                        gitHubLink={BouncingBlockGitHubLink}
+                        tech={BouncingBlockTechStack}
+                        imgs={BouncingBlockImgs}
+                        live={false}
+                    />
+                    <ProjectBox img={JobTrackerImg}
+                        tag={WEB}
+                        title="Job Tracker"
+                        desc={JobTrackerDesc}
+                        gitHubLink={JobTrackerGitHubLink}
+                        tech={JobTrackerTechStack}
+                        imgs={JobTrackerImgs}
+                        live={false}
+                    />
                 </div>
                 <div className="columns is-desktop row">
-                    <ProjectBox img={PugImg} 
-                                tag={MOBILE} 
-                                title="P.U.G. (Pick Up Games)" 
-                                desc=""
-                                link=""
-                                imgs=""
-                                />
+                    <ProjectBox img={PugImg}
+                        tag={MOBILE}
+                        title="P.U.G. (Pick Up Games)"
+                        desc={PugDesc}
+                        gitHubLink={PugGitHubLink}
+                        tech={PugTechStack}
+                        imgs={PugImgs}
+                        live={false}
+                    />
 
                 </div>
 

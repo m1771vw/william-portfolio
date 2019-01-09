@@ -4,7 +4,7 @@ import ProjectModal from './ProjectModal';
 
 
 const ProjectBox = props => {
-    let { img, tag, title, desc, link, imgs } = props;
+    let { img, tag, title, desc, gitHubLink, liveLink, imgs, tech, live } = props;
     const [active, toggleActive] = useState(false);
     const projectBoxClicked = e => {
         toggleActive(!active);
@@ -19,8 +19,12 @@ const ProjectBox = props => {
                           tag={tag}
                           title={title}
                           desc={desc}
-                          link={link}
-                          imgs={imgs} />
+                          gitHubLink={gitHubLink}
+                          liveLink={liveLink}
+                          imgs={imgs}
+                          tech={tech} 
+                          live={live}
+                          />
         </div>
     );
 };
