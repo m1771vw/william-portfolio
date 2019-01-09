@@ -2,6 +2,7 @@ import React from 'react';
 import Typing, { Backspace, Reset } from 'react-typing-animation';
 
 
+
 const AnimatedTypingComponent = () => (
     <Typing loop speed={50}>
                 {"DESIGN."}
@@ -22,6 +23,7 @@ const HeroSection = () => {
     return (
         <div className="hero-body full-height">
             <div className="container has-text-centered">
+            {/* <img src={background}/> */}
             <div className="title">
                 <div className="animated-typing-container"><span className="title-padding">I</span> {AnimatedTypingComponent()}</div>
             </div>

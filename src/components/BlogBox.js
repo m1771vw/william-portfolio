@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import {string} from 'prop-types';
 
 import linkClicked from '../helpers/linkClicked';
 
@@ -19,6 +19,10 @@ const BlogBox = props => {
 };
 
 BlogBox.propTypes = {
+    img: string,
+    title: string,
+    description: string,
+    link: string
     
 };
 

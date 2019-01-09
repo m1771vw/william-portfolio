@@ -13,7 +13,7 @@ const Header = () => {
                         <div className="navbar-item">
                             <div className="logo">WY.</div>
                         </div>
-                        <a href="#" onClick={() => toggleActive(!active)} className={"menu-btn " + (active ? "active" : "")}><span></span></a>
+                        <div href="#" onClick={() => toggleActive(!active)} className={"menu-btn " + (active ? "active" : "")}><span></span></div>
                     </div>
                     {/* <div id="navbarMenuHeroA" className={"navbar-menu " + (active ? "active" : "")}> */}
                     <div id="navbarMenuHeroA" className={"new-navbar " + (active ? "active" : "")}>

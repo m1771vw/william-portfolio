@@ -1,6 +1,12 @@
 /* Containers */
 
 /* Header */
+
+.hero-background { 
+  /* background-image: url(/static/media/garibaldi_lake_wallpaper.40d46b49.jpg); */
+  background-position: center center;
+  background-position-y: 25%;
+}
 .header-margin-sides {
   padding: 0 5%;
   max-width: 100%;

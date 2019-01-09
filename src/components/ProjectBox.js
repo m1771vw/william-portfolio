@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import PropTypes from 'prop-types';
+import {string, array} from 'prop-types';
 import ProjectModal from './ProjectModal';
 
 
@@ -30,7 +30,15 @@ const ProjectBox = props => {
 };
 
 ProjectBox.propTypes = {
-    
+    img: string,
+    tag: string,
+    title: string,
+    desc: string,
+    gitHubLink: string,
+    liveLink: string,
+    imgs: array,
+    tech: string,
+    live: string
 };
 
 

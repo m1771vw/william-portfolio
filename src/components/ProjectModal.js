@@ -3,14 +3,9 @@ import LogoGithub from 'react-ionicons/lib/LogoGithub';
 import IosGlobeOutline from 'react-ionicons/lib/IosGlobeOutline';
 
 import linkClicked from '../helpers/linkClicked';
-// const linkClicked = (e, url) => {
-//     e.preventDefault();
-//     console.log(url);
-//     window.open(url, '_blank');
-// }
 
 const ProjectModal = (props) => {
-    let {active, projectBoxClicked, tag, title, desc, gitHubLink, liveLink, imgs, tech, live} = props;
+    let {active, projectBoxClicked, title, desc, gitHubLink, liveLink, imgs, tech, live} = props;
     return (
         <div className={"modal " + (active ? "is-active" : "")}>
         <div onClick={projectBoxClicked} className="modal-background"></div>

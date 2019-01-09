@@ -53,6 +53,7 @@ const Projects = () => {
                         title="Study Buddies"
                         desc={StudyBuddyDesc}
                         gitHubLink={StudyBuddyGitHubLink}
+                        liveLink={StudyBuddyLiveLink}
                         tech={StudyBuddyTechStack}
                         imgs={StudyBuddyImgs}
                         live={false}
@@ -62,6 +63,7 @@ const Projects = () => {
                         title="Study Buddies Mobile"
                         desc={StudyBuddyMobileDesc}
                         gitHubLink={StudyBuddyMobileGitHubLink}
+                        liveLink={StudyBuddyMobileLiveLink}
                         tech={StudyBuddyMobileTechStack}
                         imgs={StudyBuddyMobileImgs}
                         live={false}
@@ -73,6 +75,7 @@ const Projects = () => {
                         title="Bouncing Blocks"
                         desc={BouncingBlockDesc}
                         gitHubLink={BouncingBlockGitHubLink}
+                        liveLink={BouncingBlockLiveLink}
                         tech={BouncingBlockTechStack}
                         imgs={BouncingBlockImgs}
                         live={false}
@@ -82,6 +85,7 @@ const Projects = () => {
                         title="Job Tracker"
                         desc={JobTrackerDesc}
                         gitHubLink={JobTrackerGitHubLink}
+                        liveLink={JobTrackerLiveLink}
                         tech={JobTrackerTechStack}
                         imgs={JobTrackerImgs}
                         live={false}
@@ -93,6 +97,7 @@ const Projects = () => {
                         title="P.U.G. (Pick Up Games)"
                         desc={PugDesc}
                         gitHubLink={PugGitHubLink}
+                        liveLink={PugLiveLink}
                         tech={PugTechStack}
                         imgs={PugImgs}
                         live={false}
