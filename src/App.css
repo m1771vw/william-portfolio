@@ -11,6 +11,10 @@
   padding: 0 5%;
   max-width: 100%;
   position: fixed;
+  transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;	
 }
 
 .logo {
@@ -19,6 +23,10 @@
 	font-size: 34px;
   font-weight: 700;
   color: #ffffff;
+  transition: all 0.1s ease 0s;
+  -moz-transition: all 0.1s ease 0s;
+	-webkit-transition: all 0.1s ease 0s;
+	-o-transition: all 0.1s ease 0s;	
 }
 
 .navbar-item:hover {
@@ -26,6 +34,24 @@
 	/* -moz-box-shadow: inset 0 -6px 0 #ede574;
 	-webkit-box-shadow: inset 0 -6px 0 #ede574;
 	-khtml-box-shadow: inset 0 -6px 0 #ede574; */
+}
+
+.filled {
+  background: #ffffff;	
+}
+
+.logo.filled-text {
+  color: black;
+}
+
+.menu-btn.filled span,
+.menu-btn.filled span::before,
+.menu-btn.filled span::after {
+  background: black;
+}
+
+.new-navbar .navbar-item.filled-text {
+  color: black;
 }
 
 /* .header .top-menu ul li:hover a,

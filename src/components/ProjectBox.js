@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {string, array} from 'prop-types';
+import {string, bool, array} from 'prop-types';
 import ProjectModal from './ProjectModal';
 
 
@@ -38,7 +38,7 @@ ProjectBox.propTypes = {
     liveLink: string,
     imgs: array,
     tech: string,
-    live: string
+    live: bool
 };
 
 
