@@ -90,6 +90,7 @@
 }
 
 .menu-btn {
+  cursor:pointer;
 	position: relative;
 	float: right;
 	display: none;
@@ -184,12 +185,24 @@
   }
 
   .new-navbar.active {
+    background: #ffffff;
     float: right;
     right: 0;
     transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
+  }
+
+  .new-navbar.active .navbar-item {
+    color: black;
+
+  }
+  .new-navbar.active .navbar-item:hover {
+    box-shadow: inset 0 -2px 0 #000000;
+    -moz-box-shadow: inset 0 -2px 0 #000000;
+    -webkit-box-shadow: inset 0 -2px 0 #000000;
+    -khtml-box-shadow: inset 0 -2px 0 #000000;
   }
 }
 
@@ -288,6 +301,27 @@
 .box-image .tag-name,
 .box-image .name {
   cursor: pointer;
+}
+
+.box-image {
+  transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+  transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-o-transform: translateY(0px);
+}
+.box-image:hover {
+  transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+  transform: translateY(-10px);
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-o-transform: translateY(-10px);
 }
 /* Project Modal */
 .upper-right {

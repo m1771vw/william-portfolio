@@ -33,7 +33,7 @@ const Header = () => {
                         <div href="#" onClick={() => setActive(!active)} className={"menu-btn " + (active ? "active" : "") + (scrollTop > 50 ? " filled" : "")}><span></span></div>
                     </div>
                     {/* <div id="navbarMenuHeroA" className={"navbar-menu " + (active ? "active" : "")}> */}
-                    <div id="navbarMenuHeroA" className={"new-navbar " + (active ? "active" : "")}>
+                    <div id="navbarMenuHeroA" className={"new-navbar " + (active ? "active white" : "")}>
                     {/* <div id="navbarMenuHeroA" className="new-nav-bar"> */}
                         <div className="navbar-end">
                             <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "")}>
