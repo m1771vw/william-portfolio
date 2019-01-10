@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/BouncingBlockResized.104dbb22.png"
   },
   {
-    "revision": "56e83d9eaa1a85902c77",
+    "revision": "7d388702ed00a35e087e",
     "url": "/static/css/main.f941215e.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/StudyBuddiesResizeMobile.dd806ded.png"
   },
   {
-    "revision": "56e83d9eaa1a85902c77",
-    "url": "/static/js/main.56e83d9e.chunk.js"
+    "revision": "7d388702ed00a35e087e",
+    "url": "/static/js/main.7d388702.chunk.js"
   },
   {
     "revision": "861666454cf8905853ca4e85fd49ba50",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/garibaldi_lake_wallpaper.40d46b49.jpg"
   },
   {
-    "revision": "637e6435699f77f307fac71c50f85872",
+    "revision": "5119a6c78edc2a82f8615506da1141a7",
     "url": "/index.html"
   }
 ];
