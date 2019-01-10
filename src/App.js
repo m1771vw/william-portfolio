@@ -5,7 +5,7 @@ import AboutMe from './components/AboutMe';
 import WhatIDo from './components/WhatIDo';
 import Projects from './components/Projects';
 import Blogs from './components/Blogs';
-// import ContactMe from './components/ContactMe';
+import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
 import './App.css';
 import background from './img/garibaldi_lake_wallpaper.jpg';
@@ -25,6 +25,7 @@ class App extends Component {
         <WhatIDo/>
         <Projects/>
         <Blogs/>
+        <ContactMe/>
         <Footer/>
 
       </div>

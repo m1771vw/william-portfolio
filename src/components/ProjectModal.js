@@ -16,9 +16,9 @@ const ProjectModal = (props) => {
             <button onClick={projectBoxClicked} className="delete upper-right" aria-label="close"></button>
             <section className="modal-card-body">
             <img src={imgs[0]} alt="Projects"/>
-            <h4>{title}</h4>
+            <h4 className="underline">{title}</h4>
             <p>{desc}</p>
-            <h6>Tech Stack</h6>
+            <h5 className="underline">Tech Stack</h5>
             <p>{tech}</p>
             </section>
             <footer className="modal-card-foot">

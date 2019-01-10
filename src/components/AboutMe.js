@@ -9,7 +9,7 @@ const AboutMe = () => {
                 <h1>Hi, I'm William, <br />Full Stack Developer <br />From Orange County, California.</h1>
                     <p>
                         Technology has never been more prominent in our lives than it is now. <br/>
-                        Technology is constantly transforming and it is my mission to evolve with it.
+                        It's constantly transforming and it is my mission to evolve with it.
                     </p>
             </div>
         </div>
