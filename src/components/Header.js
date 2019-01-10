@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 const headerItemClicked = e => {
     console.log(e.target.innerText);
@@ -19,37 +21,72 @@ const Header = () => {
             window.removeEventListener('scroll', handleScroll);
 
         };
-      });
+    });
 
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+      };
+    const scrollToBottom = () => {
+        scroll.scrollToBottom();
+      };
     return (
         <header ref={scrollTopRef} onScroll={handleScroll} className="hero-head header">
+
             <nav className="navbar">
                 <div className={"container header-margin-sides " + (scrollTop > 50 ? " filled" : "")}>
                     <div className="navbar-brand">
                         <div className="navbar-item">
-                            <div className={"logo " + (scrollTop > 50 ? " filled-text" : "")}>WY.</div>
+                            <div onClick={scrollToTop} className={"logo " + (scrollTop > 50 ? " filled-text" : "")}>WY.</div>
                         </div>
                         <div href="#" onClick={() => setActive(!active)} className={"menu-btn " + (active ? "active" : "") + (scrollTop > 50 ? " filled" : "")}><span></span></div>
                     </div>
                     {/* <div id="navbarMenuHeroA" className={"navbar-menu " + (active ? "active" : "")}> */}
                     <div id="navbarMenuHeroA" className={"new-navbar " + (active ? "active white" : "")}>
-                    {/* <div id="navbarMenuHeroA" className="new-nav-bar"> */}
+                        {/* <div id="navbarMenuHeroA" className="new-nav-bar"> */}
                         <div className="navbar-end">
-                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
-                                About
-                                </div>
-                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
-                                What I Do
-                                </div>
-                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
-                                Projects
-                                </div>
-                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
-                                Blog
-                                </div>
-                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
+                            <div className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
+                                <Link
+                                    activeClass="active"
+                                    to="about-section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                >About</Link>
+                            </div>
+                            <div className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
+                                <Link
+                                    activeClass="active"
+                                    to="whatido-section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                >What I Do</Link>
+                            </div>
+                            <div className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
+                                <Link
+                                    activeClass="active"
+                                    to="project-section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                >Projects</Link>
+                            </div>
+                            <div className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
+                                <Link
+                                    activeClass="active"
+                                    to="blog-section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                >Blog</Link>
+                            </div>
+                            <div onClick={scrollToBottom} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
                                 Contact
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -20,7 +20,7 @@ class App extends Component {
         <HeroSection />
         
       </section>
-        <AboutMe/>
+        <AboutMe/> 
         
         <WhatIDo/>
         <Projects/>
