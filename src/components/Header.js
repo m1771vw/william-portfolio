@@ -4,7 +4,6 @@ const headerItemClicked = e => {
     console.log(e.target.innerText);
 }
 
-
 const Header = () => {
     const [active, setActive] = useState(false);
     const [scrollTop, setScrollTop] = useState(0);
@@ -36,19 +35,19 @@ const Header = () => {
                     <div id="navbarMenuHeroA" className={"new-navbar " + (active ? "active white" : "")}>
                     {/* <div id="navbarMenuHeroA" className="new-nav-bar"> */}
                         <div className="navbar-end">
-                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "")}>
+                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
                                 About
                                 </div>
-                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "")}>
+                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
                                 What I Do
                                 </div>
-                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "")}>
+                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
                                 Projects
                                 </div>
-                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "")}>
+                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
                                 Blog
                                 </div>
-                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "")}>
+                            <div onClick={headerItemClicked} className={"navbar-item " + (scrollTop > 50 ? " filled-text" : "white-font")}>
                                 Contact
                                 </div>
                         </div>
