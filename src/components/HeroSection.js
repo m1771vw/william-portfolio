@@ -4,7 +4,7 @@ import Typing, { Backspace, Reset } from 'react-typing-animation';
 
 
 const AnimatedTypingComponent = () => (
-    <Typing loop speed={25}>
+    <Typing loop speed={75}>
                 {"DESIGN."}
                 <Backspace count={7} delay={750} />
                 {"DEVELOP."}

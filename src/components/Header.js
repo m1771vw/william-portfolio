@@ -1,11 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 
-
-const headerItemClicked = e => {
-    console.log(e.target.innerText);
-}
-
 const Header = () => {
     const [active, setActive] = useState(false);
     const [scrollTop, setScrollTop] = useState(0);
@@ -13,7 +8,6 @@ const Header = () => {
     const handleScroll = () => {
         let pageYOffSet = window.pageYOffset;
         setScrollTop(pageYOffSet);
-        console.log("State: ", scrollTop);
     }
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
