@@ -10,7 +10,7 @@ const ProjectBox = props => {
         toggleActive(!active);
     }
     return (
-        <div className="column is-half-desktop is-half-tablet box-image">
+        <div className={"column is-half-desktop is-half-tablet box-image " + (active ? "" : "not-active")}>
             <img onClick={projectBoxClicked} src={img} alt="Placeholder"/>
             <div onClick={projectBoxClicked} className="tag-name">{tag}</div>
             <div onClick={projectBoxClicked} className="name">{title}</div>

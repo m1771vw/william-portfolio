@@ -6,7 +6,7 @@ import linkClicked from '../helpers/linkClicked';
 const BlogBox = props => {
     let { img, title, description, link } = props;
     return (
-        <div className="column is-one-third box-image">
+        <div className="column is-one-third box-image not-active">
             <img onClick={(e) => {linkClicked(e, link)}} src={img} alt="Placeholder"/>
             <div onClick={(e) => {linkClicked(e, link)}} className="name">
                 {title}
