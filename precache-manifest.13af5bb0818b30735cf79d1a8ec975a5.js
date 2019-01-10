@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/william-portfolio/static/media/BouncingBlockResized.104dbb22.png"
   },
   {
-    "revision": "0592c52da2e333ddb8ed",
+    "revision": "f66627912a590244d4d7",
     "url": "/william-portfolio/static/css/main.f941215e.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/william-portfolio/static/media/StudyBuddiesResizeMobile.dd806ded.png"
   },
   {
-    "revision": "0592c52da2e333ddb8ed",
-    "url": "/william-portfolio/static/js/main.0592c52d.chunk.js"
+    "revision": "f66627912a590244d4d7",
+    "url": "/william-portfolio/static/js/main.f6662791.chunk.js"
   },
   {
     "revision": "861666454cf8905853ca4e85fd49ba50",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/william-portfolio/static/media/garibaldi_lake_wallpaper.40d46b49.jpg"
   },
   {
-    "revision": "86d1d23fc7348e698dead2e226b369ab",
+    "revision": "70875c29f1354593760570ad167a3d93",
     "url": "/william-portfolio/index.html"
   }
 ];
