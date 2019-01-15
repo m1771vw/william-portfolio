@@ -13,7 +13,7 @@ const AboutMe = () => {
                     It's constantly transforming and it is my mission to evolve with it.
                     </p>
 
-                    <a className="resume" href={Pdf} target="_blank">DOWNLOAD RESUME</a>
+                    <a className="resume" href={Pdf} rel="noopener noreferrer" target="_blank">DOWNLOAD RESUME</a>
 
 
             </div>
