@@ -35,6 +35,7 @@ const Blogs = () => {
                         link={blog3Link}
                     />
                 </div>
+
             </div>
         </div>
     );

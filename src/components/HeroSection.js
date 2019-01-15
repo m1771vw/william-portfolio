@@ -9,8 +9,8 @@ const AnimatedTypingComponent = () => (
                 <Backspace count={7} delay={750} />
                 {"DEVELOP."}
                 <Backspace count={8} delay={750} />
-                {"TEST."}
-                <Backspace count={5} delay={750} />
+                {"ANALYZE."}
+                <Backspace count={8} delay={750} />
                 {"DEBUG."}
                 <Backspace count={6} delay={750} />
                 {"IMPROVE."}

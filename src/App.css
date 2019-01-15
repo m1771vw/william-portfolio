@@ -289,6 +289,21 @@
   padding: 0 2.5vw;
 }
 
+/* About Me */
+.resume {
+	cursor: pointer;
+	display:inline-block;
+	font-size: 12px;
+	color: #292929;
+	letter-spacing: 0.2em;
+	font-weight: 500;
+	line-height: 12px;
+	font-family: 'Hind', helvetica;	
+	box-shadow: inset 0 -6px 0 #adccff;
+	-moz-box-shadow: inset 0 -6px 0 #adccff;
+	-webkit-box-shadow: inset 0 -6px 0 #adccff;
+	-khtml-box-shadow: inset 0 -6px 0 #adccff;
+}
 
 /* Skills */
 .skill-box p {
@@ -307,8 +322,19 @@
 }
 
 .project.box-image {
-  margin: 10px 10px;
   box-shadow: 2px 2px 2px 2px #aaaaaa;
+}
+
+@media (min-width:768px) {
+	.project.box-image {
+		margin: 10px 10px;
+	}
+}
+
+@media (max-width:767px) {
+	.project.box-image {
+		margin-bottom: 10px;
+	}
 }
 
 .box-image img,
@@ -348,10 +374,6 @@
 .not-live {
   display: none;
 }
-
-
-
-
 
 /* Blogs */
 #blog-section .box-image img {
@@ -396,10 +418,10 @@
 	font-size: 14px;
 	color: #898989;
 	line-height: 12px;
-	box-shadow: inset 0 -6px 0 #ede574;
-	-moz-box-shadow: inset 0 -6px 0 #ede574;
-	-webkit-box-shadow: inset 0 -6px 0 #ede574;
-	-khtml-box-shadow: inset 0 -6px 0 #ede574;
+	box-shadow: inset 0 -6px 0 #adccff;
+	-moz-box-shadow: inset 0 -6px 0 #adccff;
+	-webkit-box-shadow: inset 0 -6px 0 #adccff;
+	-khtml-box-shadow: inset 0 -6px 0 #adccff;
 }
 /* Blogs */
 .blog-box {

@@ -5,7 +5,7 @@ import StudyBuddyMobileImg from '../img/projects/StudyBuddiesResizeMobile.png';
 import BouncingBlockImg from '../img/projects/BouncingBlockResized.png';
 import JobTrackerImg from '../img/projects/JobTrackerResized.png';
 import PugImg from '../img/projects/PUGResized.png'
-
+import linkClicked from '../helpers/linkClicked';
 
 const WEB = "Web";
 const MOBILE = "Mobile";
@@ -38,7 +38,7 @@ const PugImgs = [PugImg];
 // const StudyBuddyTechStack = "React.js"
 // const StudyBuddyLink = "https://github.com/m1771vw/StudyBuddies";
 // const StudyBuddyImgs = [StudyBuddyImg];
-
+const gitHubUrl = "https://github.com/m1771vw";
 
 
 const Projects = () => {
@@ -104,7 +104,7 @@ const Projects = () => {
                     />
 
                 </div>
-
+                <div onClick={(e) => {linkClicked(e, gitHubUrl)}} className="resume">VIEW MY GITHUB</div>
             </div>
         </div>
     );
