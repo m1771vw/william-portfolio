@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "861666454cf8905853ca4e85fd49ba50",
-    "url": "/william-portfolio/static/media/JobTrackerResized.86166645.png"
+    "revision": "bab4d0c49eab0136239b",
+    "url": "/william-portfolio/static/css/main.b17a7030.chunk.css"
   },
   {
-    "revision": "f6be26c082d513fcbdfc",
-    "url": "/william-portfolio/static/css/main.bf51ad93.chunk.css"
+    "revision": "bab4d0c49eab0136239b",
+    "url": "/william-portfolio/static/js/main.bab4d0c4.chunk.js"
   },
   {
-    "revision": "b23f6c6fdb517c3efd7d",
-    "url": "/william-portfolio/static/js/1.b23f6c6f.chunk.js"
+    "revision": "5d8524a66bac086cd853",
+    "url": "/william-portfolio/static/js/1.5d8524a6.chunk.js"
   },
   {
     "revision": "aa0fd5109e16cef60e20",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/william-portfolio/static/media/BouncingBlockResized.104dbb22.png"
   },
   {
-    "revision": "f6be26c082d513fcbdfc",
-    "url": "/william-portfolio/static/js/main.f6be26c0.chunk.js"
+    "revision": "861666454cf8905853ca4e85fd49ba50",
+    "url": "/william-portfolio/static/media/JobTrackerResized.86166645.png"
   },
   {
     "revision": "37476c4516ff5c777f0392764b2d304c",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/william-portfolio/static/media/rnge.3c31a11a.png"
   },
   {
-    "revision": "a59aa8c9c049ae80904a5bdbf9fb1689",
-    "url": "/william-portfolio/static/media/William_Yang_Resume20190114.a59aa8c9.pdf"
+    "revision": "daac8eeeb5374072b684b5df35da869d",
+    "url": "/william-portfolio/static/media/William_Yang_Resume.daac8eee.pdf"
   },
   {
     "revision": "a9f04de73952fd4a5b95ddfe426e0276",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/william-portfolio/static/media/garibaldi_lake_wallpaper.40d46b49.jpg"
   },
   {
-    "revision": "4d13335c9de85abce63651d30e6c0ad4",
+    "revision": "7176d8ae6c6c6eed1a129e1c5a074738",
     "url": "/william-portfolio/index.html"
   }
 ];
