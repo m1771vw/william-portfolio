@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "bab4d0c49eab0136239b",
-    "url": "/william-portfolio/static/css/main.b17a7030.chunk.css"
+    "revision": "6b7b2f557ca5b0b8996c",
+    "url": "/william-portfolio/static/css/main.e8183919.chunk.css"
   },
   {
-    "revision": "bab4d0c49eab0136239b",
-    "url": "/william-portfolio/static/js/main.bab4d0c4.chunk.js"
+    "revision": "6b7b2f557ca5b0b8996c",
+    "url": "/william-portfolio/static/js/main.6b7b2f55.chunk.js"
   },
   {
-    "revision": "5d8524a66bac086cd853",
-    "url": "/william-portfolio/static/js/1.5d8524a6.chunk.js"
+    "revision": "9a7550704c176b4e72c1",
+    "url": "/william-portfolio/static/js/1.9a755070.chunk.js"
   },
   {
     "revision": "aa0fd5109e16cef60e20",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/william-portfolio/static/media/rnge.3c31a11a.png"
   },
   {
-    "revision": "daac8eeeb5374072b684b5df35da869d",
-    "url": "/william-portfolio/static/media/William_Yang_Resume.daac8eee.pdf"
+    "revision": "d8dc94bec4633c2970d763da326268ab",
+    "url": "/william-portfolio/static/media/WilliamYangResume.d8dc94be.pdf"
   },
   {
     "revision": "a9f04de73952fd4a5b95ddfe426e0276",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/william-portfolio/static/media/garibaldi_lake_wallpaper.40d46b49.jpg"
   },
   {
-    "revision": "7176d8ae6c6c6eed1a129e1c5a074738",
+    "revision": "753395d6b656c7c863d4b530148c6a56",
     "url": "/william-portfolio/index.html"
   }
 ];
