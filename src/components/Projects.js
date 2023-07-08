@@ -5,7 +5,7 @@ import StudyBuddyMobileImg from "../img/projects/StudyBuddiesResizeMobile.png";
 import BouncingBlockImg from "../img/projects/BouncingBlockResized.png";
 import JobTrackerImg from "../img/projects/JobTrackerResized.png";
 import PugImg from "../img/projects/PUGResized.png";
-import TechProjectImg from "../img/projects/TechProjectDashboard.png";
+import TechProjectImg from "../img/projects/Brewbean.png";
 import JustcentImg from "../img/projects/Justcent.png";
 import SpreloImg from "../img/projects/Sprelo.png";
 import linkClicked from "../helpers/linkClicked";
