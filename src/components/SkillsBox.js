@@ -1,6 +1,5 @@
 import React from 'react';
 import {string, array} from 'prop-types';
-// import IosBrowsersOutline from 'react-ionicons/lib/IosBrowsersOutline'
 
 const SkillsBox = (props) => {
     let { title, skills } = props;

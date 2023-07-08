@@ -26,12 +26,12 @@ const AnimatedTypingComponent = () => (
       1000,
       "I DEBUG.",
       1000,
-      "I IMPROVE.",
+      "I OPTIMIZE.",
       1000,
     ]}
     wrapper="span"
     speed={15}
-    style={{ fontSize: "1em", display: "inline-block" }}
+    style={{ fontSize: "0.8em", display: "inline-block" }}
     repeat={Infinity}
   />
 );

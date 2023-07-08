@@ -4,7 +4,9 @@ import {
   BriefcaseOutline,
   GlobeOutline,
   Laptop,
+  LaptopOutline,
   PhonePortrait,
+  PhonePortraitOutline,
 } from "react-ionicons";
 
 const WhatIDo = () => {
@@ -19,12 +21,14 @@ const WhatIDo = () => {
               "HTML5",
               "CSS3",
               "Javascript, ES6",
+              "Angular",
               "React",
               "Redux",
+              "Next.js",
               "Typescript",
             ]}
           >
-            <Laptop fontSize="44px" />
+            <LaptopOutline fontSize="44px" />
           </SkillsBox>
           <SkillsBox
             title="Back End Development"
@@ -51,7 +55,7 @@ const WhatIDo = () => {
             title="Mobile Development"
             skills={["iOS", "SwiftUI", "React Native"]}
           >
-            <PhonePortrait fontSize="44px" />
+            <PhonePortraitOutline fontSize="44px" />
           </SkillsBox>
           <SkillsBox
             title="Other Tools"
@@ -60,7 +64,11 @@ const WhatIDo = () => {
               "RESTful API",
               "Docker",
               "OAuth 2.0",
+              "MSSQL",
+              "MongoDB",
+              "PostgreSQL",
               "SAFe5 Certified",
+              "AWS (Beanstalk, S3, Lambda, RDS)"
             ]}
           >
             <BriefcaseOutline fontSize="44px" />
