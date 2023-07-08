@@ -1,7 +1,5 @@
 import React from 'react';
-import LogoGithub from 'react-ionicons/lib/LogoGithub';
-import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
-import IosMailOutline from 'react-ionicons/lib/IosMailOutline';
+import { LogoGithub, LogoLinkedin, MailOutline } from 'react-ionicons';
 
 const ContactMe = () => {
     return (
@@ -9,7 +7,7 @@ const ContactMe = () => {
             <div className="section-margin-sides">
                 <h2>Contact Me</h2>
                 <a className="no-decor" href="https://mail.google.com/mail/?view=cm&fs=1&to=williamyang93@gmail.com" rel="noopener noreferrer" target="_blank">
-                    <div className="vertical-center"><IosMailOutline fontSize="2.0rem" />  <span className="text-space">williamyang93@gmail.com</span></div>
+                    <div className="vertical-center"><MailOutline fontSize="2.0rem" />  <span className="text-space">williamyang93@gmail.com</span></div>
                 </a>
                 <a className="no-decor" href="https://github.com/m1771vw/">
                     <div className="vertical-center"><LogoGithub fontSize="2.0rem" />  <span className="text-space">github.com/m1771vw</span></div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Pdf from '../documents/William_Yang_Resume20190114.pdf';
+import Pdf from '../documents/WilliamYangResume.pdf';
 
 const AboutMe = () => {
     return (
@@ -12,10 +12,7 @@ const AboutMe = () => {
                     Technology has never been more prominent in our lives than it is now. <br />
                     It's constantly transforming and it is my mission to evolve with it.
                     </p>
-
                     <a className="resume" href={Pdf} rel="noopener noreferrer" target="_blank">DOWNLOAD RESUME</a>
-
-
             </div>
         </div>
     );
