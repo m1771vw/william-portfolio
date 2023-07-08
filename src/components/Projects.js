@@ -5,6 +5,9 @@ import StudyBuddyMobileImg from "../img/projects/StudyBuddiesResizeMobile.png";
 import BouncingBlockImg from "../img/projects/BouncingBlockResized.png";
 import JobTrackerImg from "../img/projects/JobTrackerResized.png";
 import PugImg from "../img/projects/PUGResized.png";
+import TechProjectImg from "../img/projects/TechProjectDashboard.png";
+import JustcentImg from "../img/projects/Justcent.png";
+import SpreloImg from "../img/projects/Sprelo.png";
 import linkClicked from "../helpers/linkClicked";
 
 const WEB = "Web";
@@ -44,6 +47,27 @@ const PugTechStack = "React Native, Redux, Node.js, ChatKit API";
 const PugGitHubLink = "https://github.com/m1771vw/pug";
 const PugLiveLink = "https://github.com/m1771vw/pug";
 const PugImgs = [PugImg];
+const JustcentDesc =
+  "Justcent is a web application where people can effortlessly split their bill, find missing transactions, and see Venmo analytics.";
+const JustcentTechStack =
+  "Next.js, Typescript, Node.js, AWS (S3, Lambda, RDS), PostgreSQL";
+const JustcentGitHubLink = "https://github.com/m1771vw/Justcent";
+const JustcentLiveLink = "https://justcent.app";
+const JustcentImgs = [JustcentImg];
+const SpreloDesc =
+  "Sprelo is a web application where users are able to create experients and get user feedback before any code needs to be written.";
+const SpreloTechStack =
+  "Next.js, Typescript, Node.js, Express.js, AWS (Beanstalk, S3, RDS), PostgreSQL";
+const SpreloGitHubLink = "https://github.com/m1771vw/Sprelo";
+const SpreloLiveLink = "https://sprelo.com";
+const SpreloImgs = [SpreloImg];
+const TechProjectDesc =
+  "Project Tracker is a web application where users can log in and manage projects, assignments, and assigned hours for teammates.";
+const TechProjectTechStack =
+  "React.js, Redux, Semantic UI, Node.js, Express.js, bcryptjs, JWT, passport, PostgreSQL";
+const TechProjectGitHubLink = "https://github.com/m1771vw/TechProject";
+const TechProjectLiveLink = "https://github.com/m1771vw/TechProject";
+const TechProjectImgs = [TechProjectImg];
 // const StudyBuddyDesc = "Study Buddies is a Web Application built in React.js that allows users to create their own flashcards and study them.";
 // const StudyBuddyTechStack = "React.js"
 // const StudyBuddyLink = "https://github.com/m1771vw/StudyBuddies";
@@ -55,7 +79,30 @@ const Projects = () => {
     <div className="section-padding-top " id="project-section">
       <div className="section-margin-sides">
         <h2>Projects</h2>
-
+        <div className="columns is-desktop row">
+          <ProjectBox
+            img={JustcentImg}
+            tag={WEB}
+            title="Justcent"
+            desc={JustcentDesc}
+            // gitHubLink={JustcentGitHubLink}
+            liveLink={JustcentLiveLink}
+            tech={JustcentTechStack}
+            imgs={JustcentImgs}
+            live={true}
+          />
+          <ProjectBox
+            img={SpreloImg}
+            tag={WEB}
+            title="Sprelo"
+            desc={SpreloDesc}
+            // gitHubLink={SpreloGitHubLink}
+            liveLink={SpreloLiveLink}
+            tech={SpreloTechStack}
+            imgs={SpreloImgs}
+            live={true}
+          />
+        </div>
         <div className="columns is-desktop row">
           <ProjectBox
             img={PugImg}
@@ -66,6 +113,17 @@ const Projects = () => {
             liveLink={PugLiveLink}
             tech={PugTechStack}
             imgs={PugImgs}
+            live={false}
+          />
+          <ProjectBox
+            img={TechProjectImg}
+            tag={WEB}
+            title="Project Tracker"
+            desc={TechProjectDesc}
+            gitHubLink={TechProjectGitHubLink}
+            liveLink={TechProjectLiveLink}
+            tech={TechProjectTechStack}
+            imgs={TechProjectImgs}
             live={false}
           />
         </div>

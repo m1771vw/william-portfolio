@@ -325,6 +325,7 @@
 
 .project.box-image {
   box-shadow: 2px 2px 2px 2px #aaaaaa;
+	border-radius: 10px;
 }
 
 @media (min-width:768px) {
@@ -375,6 +376,11 @@
 
 .not-live {
   display: none;
+}
+
+.modal-logo {
+	padding-right: 4px;
+	padding-top: 4px;
 }
 
 /* Blogs */

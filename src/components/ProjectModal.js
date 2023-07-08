@@ -34,22 +34,30 @@ const ProjectModal = (props) => {
           <p>{tech}</p>
         </section>
         <footer className="modal-card-foot">
-          <button
-            onClick={(e) => {
-              linkClicked(e, gitHubLink);
-            }}
-            className="button"
-          >
-            <LogoGithub />
-            View Github
-          </button>
+          {gitHubLink ? (
+            <button
+              onClick={(e) => {
+                linkClicked(e, gitHubLink);
+              }}
+              className="button"
+            >
+              <div className="modal-logo">
+                <LogoGithub />
+              </div>
+              View Github
+            </button>
+          ) : null}
+
           <button
             onClick={(e) => {
               linkClicked(e, liveLink);
             }}
             className={"button " + (live ? "" : "not-live")}
           >
-            <GlobeOutline /> View Live!
+            <div className="modal-logo">
+              <GlobeOutline />
+            </div>
+            View Live!
           </button>
         </footer>
       </div>
