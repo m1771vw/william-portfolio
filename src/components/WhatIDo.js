@@ -13,7 +13,7 @@ const WhatIDo = () => {
   return (
     <div className="section-padding-top gray" id="whatido-section">
       <div className="section-margin-sides">
-        <h2>What I Do</h2>
+        <h2 className="underline-border">What I Do</h2>
         <div className="columns is-desktop row">
           <SkillsBox
             title="Web Development"

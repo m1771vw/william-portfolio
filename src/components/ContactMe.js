@@ -5,7 +5,7 @@ const ContactMe = () => {
     return (
         <div className="section-padding-top " id="contact-me-section">
             <div className="section-margin-sides">
-                <h2>Contact Me</h2>
+                <h2 className="underline-border">Contact Me</h2>
                 <a className="no-decor" href="https://mail.google.com/mail/?view=cm&fs=1&to=williamyang93@gmail.com" rel="noopener noreferrer" target="_blank">
                     <div className="vertical-center"><MailOutline fontSize="2.0rem" />  <span className="text-space">williamyang93@gmail.com</span></div>
                 </a>

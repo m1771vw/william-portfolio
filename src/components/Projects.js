@@ -5,9 +5,10 @@ import StudyBuddyMobileImg from "../img/projects/StudyBuddiesResizeMobile.png";
 import BouncingBlockImg from "../img/projects/BouncingBlockResized.png";
 import JobTrackerImg from "../img/projects/JobTrackerResized.png";
 import PugImg from "../img/projects/PUGResized.png";
-import TechProjectImg from "../img/projects/Brewbean.png";
+import TechProjectImg from "../img/projects/TechProject.png";
 import JustcentImg from "../img/projects/Justcent.png";
 import SpreloImg from "../img/projects/Sprelo.png";
+import BrewbeanImg from "../img/projects/Brewbean.png";
 import linkClicked from "../helpers/linkClicked";
 
 const WEB = "Web";
@@ -68,6 +69,13 @@ const TechProjectTechStack =
 const TechProjectGitHubLink = "https://github.com/m1771vw/TechProject";
 const TechProjectLiveLink = "https://github.com/m1771vw/TechProject";
 const TechProjectImgs = [TechProjectImg];
+const BrewbeanDesc =
+  "Project Tracker is a web application where users can log in and manage projects, assignments, and assigned hours for teammates.";
+const BrewbeanTechStack =
+  "React.js, Redux, Semantic UI, Node.js, Express.js, bcryptjs, JWT, passport, PostgreSQL";
+const BrewbeanGitHubLink = "https://github.com/brewbean";
+const BrewbeanLiveLink = "https://brewbean.io/";
+const BrewbeanImgs = [BrewbeanImg];
 // const StudyBuddyDesc = "Study Buddies is a Web Application built in React.js that allows users to create their own flashcards and study them.";
 // const StudyBuddyTechStack = "React.js"
 // const StudyBuddyLink = "https://github.com/m1771vw/StudyBuddies";
@@ -78,7 +86,8 @@ const Projects = () => {
   return (
     <div className="section-padding-top " id="project-section">
       <div className="section-margin-sides">
-        <h2>Projects</h2>
+        <h2 className="underline-border">Projects</h2>
+
         <div className="columns is-desktop row">
           <ProjectBox
             img={JustcentImg}
@@ -105,6 +114,17 @@ const Projects = () => {
         </div>
         <div className="columns is-desktop row">
           <ProjectBox
+            img={BrewbeanImg}
+            tag={WEB}
+            title="Brewbean"
+            desc={BrewbeanDesc}
+            gitHubLink={BrewbeanGitHubLink}
+            liveLink={BrewbeanLiveLink}
+            tech={BrewbeanTechStack}
+            imgs={BrewbeanImgs}
+            live={true}
+          />
+          <ProjectBox
             img={PugImg}
             tag={MOBILE}
             title="P.U.G. (Pick Up Games)"
@@ -113,6 +133,20 @@ const Projects = () => {
             liveLink={PugLiveLink}
             tech={PugTechStack}
             imgs={PugImgs}
+            live={false}
+          />
+        </div>
+
+        <div className="columns is-desktop row">
+          <ProjectBox
+            img={BouncingBlockImg}
+            tag={MOBILE}
+            title="Bouncing Blocks"
+            desc={BouncingBlockDesc}
+            gitHubLink={BouncingBlockGitHubLink}
+            liveLink={BouncingBlockLiveLink}
+            tech={BouncingBlockTechStack}
+            imgs={BouncingBlockImgs}
             live={false}
           />
           <ProjectBox
@@ -148,30 +182,6 @@ const Projects = () => {
             liveLink={StudyBuddyMobileLiveLink}
             tech={StudyBuddyMobileTechStack}
             imgs={StudyBuddyMobileImgs}
-            live={false}
-          />
-        </div>
-        <div className="columns is-desktop row">
-          <ProjectBox
-            img={BouncingBlockImg}
-            tag={MOBILE}
-            title="Bouncing Blocks"
-            desc={BouncingBlockDesc}
-            gitHubLink={BouncingBlockGitHubLink}
-            liveLink={BouncingBlockLiveLink}
-            tech={BouncingBlockTechStack}
-            imgs={BouncingBlockImgs}
-            live={false}
-          />
-          <ProjectBox
-            img={JobTrackerImg}
-            tag={WEB}
-            title="Job Tracker"
-            desc={JobTrackerDesc}
-            gitHubLink={JobTrackerGitHubLink}
-            liveLink={JobTrackerLiveLink}
-            tech={JobTrackerTechStack}
-            imgs={JobTrackerImgs}
             live={false}
           />
         </div>
