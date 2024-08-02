@@ -1,22 +1,26 @@
 {
-  "main.css": "/william-portfolio/static/css/main.e8183919.chunk.css",
-  "main.js": "/william-portfolio/static/js/main.6b7b2f55.chunk.js",
-  "main.js.map": "/william-portfolio/static/js/main.6b7b2f55.chunk.js.map",
-  "static/js/1.9a755070.chunk.js": "/william-portfolio/static/js/1.9a755070.chunk.js",
-  "static/js/1.9a755070.chunk.js.map": "/william-portfolio/static/js/1.9a755070.chunk.js.map",
-  "runtime~main.js": "/william-portfolio/static/js/runtime~main.aa0fd510.js",
-  "runtime~main.js.map": "/william-portfolio/static/js/runtime~main.aa0fd510.js.map",
-  "static/media/StudyBuddiesResize.png": "/william-portfolio/static/media/StudyBuddiesResize.8d3d5f08.png",
-  "static/media/StudyBuddiesResizeMobile.png": "/william-portfolio/static/media/StudyBuddiesResizeMobile.dd806ded.png",
-  "static/media/BouncingBlockResized.png": "/william-portfolio/static/media/BouncingBlockResized.104dbb22.png",
-  "static/media/JobTrackerResized.png": "/william-portfolio/static/media/JobTrackerResized.86166645.png",
-  "static/media/PUGResized.png": "/william-portfolio/static/media/PUGResized.37476c45.png",
-  "static/media/rnge.png": "/william-portfolio/static/media/rnge.3c31a11a.png",
-  "static/media/WilliamYangResume.pdf": "/william-portfolio/static/media/WilliamYangResume.d8dc94be.pdf",
-  "static/media/GraphQLNodeMongoResized.png": "/william-portfolio/static/media/GraphQLNodeMongoResized.a9f04de7.png",
-  "static/media/garibaldi_lake_wallpaper.jpg": "/william-portfolio/static/media/garibaldi_lake_wallpaper.40d46b49.jpg",
-  "static/css/main.e8183919.chunk.css.map": "/william-portfolio/static/css/main.e8183919.chunk.css.map",
-  "index.html": "/william-portfolio/index.html",
-  "precache-manifest.4208087a45aeb75a6b0859d0a59d7950.js": "/william-portfolio/precache-manifest.4208087a45aeb75a6b0859d0a59d7950.js",
-  "service-worker.js": "/william-portfolio/service-worker.js"
+  "files": {
+    "main.css": "/static/css/main.58c5bd83.css",
+    "main.js": "/static/js/main.377bffd1.js",
+    "static/media/Brewbean.png": "/static/media/Brewbean.e788e59d3af1751fe788.png",
+    "static/media/Justcent.png": "/static/media/Justcent.6365aac7403068763043.png",
+    "static/media/Sprelo.png": "/static/media/Sprelo.9681a231d6d9c4d66c5f.png",
+    "static/media/garibaldi_lake_wallpaper.jpg": "/static/media/garibaldi_lake_wallpaper.915b55e280364da6c26d.jpg",
+    "static/media/JobTrackerResized.png": "/static/media/JobTrackerResized.93b79a5f2e41cde9f36b.png",
+    "static/media/TechProject.png": "/static/media/TechProject.315a288edc58efca721c.png",
+    "static/media/WilliamYangResume.pdf": "/static/media/WilliamYangResume.9f93e164821062543108.pdf",
+    "static/media/rnge.png": "/static/media/rnge.69fd3dc3be17373ef7e4.png",
+    "static/media/StudyBuddiesResizeMobile.png": "/static/media/StudyBuddiesResizeMobile.db1cbb83a55d5fac19f8.png",
+    "static/media/BouncingBlockResized.png": "/static/media/BouncingBlockResized.070343d0caa732ebd129.png",
+    "static/media/StudyBuddiesResize.png": "/static/media/StudyBuddiesResize.c447e59d07452748f6a4.png",
+    "static/media/PUGResized.png": "/static/media/PUGResized.3801282fb709bf00eeba.png",
+    "static/media/GraphQLNodeMongoResized.png": "/static/media/GraphQLNodeMongoResized.b0866e6b85168dd08db4.png",
+    "index.html": "/index.html",
+    "main.58c5bd83.css.map": "/static/css/main.58c5bd83.css.map",
+    "main.377bffd1.js.map": "/static/js/main.377bffd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58c5bd83.css",
+    "static/js/main.377bffd1.js"
+  ]
 }
